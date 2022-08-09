@@ -1,0 +1,16 @@
+[requires]
+boost/1.79.0
+openssl/1.1.1o
+websocketpp/0.8.2
+zlib/1.2.12 
+
+[generators]
+cmake_find_package_multi
+
+[options]
+
+
+[imports]
+bin, *.pdb -> ./bin
+bin, *.pdb -> ./lib
+bin, *.dll -> ./bin
