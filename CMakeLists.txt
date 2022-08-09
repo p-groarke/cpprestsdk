@@ -15,6 +15,7 @@ FetchContent_Declare(fea_cmake
 FetchContent_MakeAvailable(fea_cmake)
 include(${fea_cmake_SOURCE_DIR}/CMakeLists.txt)
 
+fea_set_output_dir(${CMAKE_BINARY_DIR}/bin)
 fea_pull_conan()
 
 enable_testing()
